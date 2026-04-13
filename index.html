@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precizne Usluge Metal Struga | CNC i Ručno Struganje</title>
+    <meta name="description" content="Profesionalne usluge metal struga — CNC struganje, ručna obrada, izrada delova po meri i precizno inženjerstvo. Kvalitetan rad sa brzom isporukom.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigacija -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    <line x1="20" y1="2" x2="20" y2="12" stroke="currentColor" stroke-width="2"/>
+                    <line x1="20" y1="28" x2="20" y2="38" stroke="currentColor" stroke-width="2"/>
+                    <line x1="2" y1="20" x2="12" y2="20" stroke="currentColor" stroke-width="2"/>
+                    <line x1="28" y1="20" x2="38" y2="20" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span>MetalTurn<span class="accent">Pro</span></span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Prikaži navigaciju">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Usluge</a></li>
+                <li><a href="#about">O Nama</a></li>
+                <li><a href="#process">Proces</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#testimonials">Utisci</a></li>
+                <li><a href="#contact" class="btn btn-nav">Zatražite Ponudu</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Sekcija -->
+    <header class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">Precizno Inženjerstvo od 2005.</div>
+            <h1>Precizne Usluge<br><span class="gradient-text">Metal Struga</span></h1>
+            <p class="hero-subtitle">Od prototipa do serijske proizvodnje — isporučujemo stručno obrađene metalne komponente sa tolerancijama do &plusmn;0,005mm. CNC i ručno struganje za svaku primenu.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Zatražite Ponudu
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#services" class="btn btn-outline btn-lg">Naše Usluge</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="20">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Godina Iskustva</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="15000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Isporučenih Delova</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="99">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Isporuka na Vreme</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Zadovoljnih Klijenata</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#services" aria-label="Skrolujte nadole">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Sekcija Usluge -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Čime Se Bavimo</span>
+                <h2>Naše Usluge <span class="gradient-text">Metal Struga</span></h2>
+                <p>Nudimo kompletan spektar preciznog struganja i mašinske obrade po vašim specifikacijama.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="2"/><path d="M24 4v10M24 34v10M4 24h10M34 24h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M9.86 9.86l7.07 7.07M31.07 31.07l7.07 7.07M9.86 38.14l7.07-7.07M31.07 16.93l7.07-7.07" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>CNC Struganje</h3>
+                    <p>Visoko precizne CNC strug operacije za složene geometrije i uske tolerancije. Višeosne mogućnosti za serije bilo kog obima.</p>
+                    <ul class="service-features">
+                        <li>Tolerancije do &plusmn;0,005mm</li>
+                        <li>Višeosno struganje</li>
+                        <li>Velikoserijska proizvodnja</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="16" width="32" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 16V12a8 8 0 0116 0v4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="26" r="4" stroke="currentColor" stroke-width="2"/><path d="M24 30v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Ručno Struganje</h3>
+                    <p>Vešta ručna obrada na strugu za pojedinačne delove, popravke i modifikacije. Stručan zanatski rad kada je preciznost najvažnija.</p>
+                    <ul class="service-features">
+                        <li>Pojedinačni delovi po meri</li>
+                        <li>Popravke i modifikacije</li>
+                        <li>Brza izrada prototipova</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 4L4 14v20l20 10 20-10V14L24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 14l20 10 20-10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M24 24v20" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <h3>Izrada Delova po Meri</h3>
+                    <p>Na osnovu tehničkih crteža ili uzoraka, izrađujemo metalne komponente po vašim tačnim specifikacijama u bilo kojoj količini.</p>
+                    <ul class="service-features">
+                        <li>Prema crtežima ili uzorcima</li>
+                        <li>Bilo koja veličina serije</li>
+                        <li>Potpuna sledljivost materijala</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M6 24h8l4-12 6 24 6-18 4 6h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Izrada Navoja</h3>
+                    <p>Unutrašnji i spoljašnji navoji za standardne i specijalne profile. Metrički, colski i specijalni navoji.</p>
+                    <ul class="service-features">
+                        <li>Metrički i colski navoji</li>
+                        <li>Specijalni profili navoja</li>
+                        <li>Visokoprecizna završna obrada</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="2" fill="currentColor"/></svg>
+                    </div>
+                    <h3>Bušenje i Razvrtanje</h3>
+                    <p>Precizno bušenje i razvrtanje za tačne unutrašnje prečnike. Održavanje koncentričnosti i kvaliteta površine.</p>
+                    <ul class="service-features">
+                        <li>Precizno razvrtanje</li>
+                        <li>Duboko bušenje</li>
+                        <li>Uska koncentričnost</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M12 36l24-24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M30 12h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8h32v32H8z" stroke="currentColor" stroke-width="2" rx="2"/><circle cx="16" cy="32" r="3" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="16" r="3" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <h3>Čeono Struganje i Reletiranje</h3>
+                    <p>Čeona obrada za ravnost i upravnost, plus reletiranje za oblikovanje zahvatnih površina na ručicama, dugmadima i cilindričnim komponentama.</p>
+                    <ul class="service-features">
+                        <li>Čeona obrada</li>
+                        <li>Dijamantsko i pravo reletiranje</li>
+                        <li>Šare po zahtevu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traka Materijala -->
+    <section class="materials-banner">
+        <div class="container">
+            <h3>Materijali sa Kojima Radimo</h3>
+            <div class="materials-scroll">
+                <div class="materials-track">
+                    <span>Čelik</span><span class="dot"></span>
+                    <span>Nerđajući Čelik</span><span class="dot"></span>
+                    <span>Aluminijum</span><span class="dot"></span>
+                    <span>Mesing</span><span class="dot"></span>
+                    <span>Bakar</span><span class="dot"></span>
+                    <span>Titanijum</span><span class="dot"></span>
+                    <span>Bronza</span><span class="dot"></span>
+                    <span>Liveno Gvožđe</span><span class="dot"></span>
+                    <span>Alatni Čelik</span><span class="dot"></span>
+                    <span>Inconel</span><span class="dot"></span>
+                    <span>Meki Čelik</span><span class="dot"></span>
+                    <span>Delrin</span><span class="dot"></span>
+                    <span>Najlon</span><span class="dot"></span>
+                    <span>PEEK</span><span class="dot"></span>
+                    <!-- Duplikat za neprekidnu animaciju -->
+                    <span>Čelik</span><span class="dot"></span>
+                    <span>Nerđajući Čelik</span><span class="dot"></span>
+                    <span>Aluminijum</span><span class="dot"></span>
+                    <span>Mesing</span><span class="dot"></span>
+                    <span>Bakar</span><span class="dot"></span>
+                    <span>Titanijum</span><span class="dot"></span>
+                    <span>Bronza</span><span class="dot"></span>
+                    <span>Liveno Gvožđe</span><span class="dot"></span>
+                    <span>Alatni Čelik</span><span class="dot"></span>
+                    <span>Inconel</span><span class="dot"></span>
+                    <span>Meki Čelik</span><span class="dot"></span>
+                    <span>Delrin</span><span class="dot"></span>
+                    <span>Najlon</span><span class="dot"></span>
+                    <span>PEEK</span><span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcija O Nama -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <svg viewBox="0 0 120 120" fill="none">
+                            <circle cx="60" cy="60" r="50" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+                            <circle cx="60" cy="60" r="35" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                            <circle cx="60" cy="60" r="20" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="60" cy="60" r="8" fill="currentColor" opacity="0.8"/>
+                            <line x1="60" y1="10" x2="60" y2="25" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                            <line x1="60" y1="95" x2="60" y2="110" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                            <line x1="10" y1="60" x2="25" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                            <line x1="95" y1="60" x2="110" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                        </svg>
+                        <span>20+ Godina Preciznosti</span>
+                    </div>
+                    <div class="about-badge">
+                        <span class="about-badge-number">ISO 9001</span>
+                        <span class="about-badge-text">Sertifikovan Kvalitet</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Ko Smo Mi</span>
+                    <h2>Izgrađeni na Preciznosti,<br><span class="gradient-text">Vođeni Kvalitetom</span></h2>
+                    <p>MetalTurnPro pruža usluge preciznog struganja metala više od dve decenije. Naš savremeni pogon kombinuje modernu CNC tehnologiju sa nezamenljivim iskustvom veštih mašinaca.</p>
+                    <p>Opslužujemo industrije od automobilske i vazduhoplovne do medicinskih uređaja i industrijske opreme. Bilo da vam treba jedan prototip ili serija od hiljadu komada, pristupamo svakom poslu sa istom posvećenošću kvalitetu i preciznosti.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+                            <span>ISO 9001:2015 Sertifikat</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+                            <span>Potpuno Opremljena Radionica</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+                            <span>Stručan Tim Mašinaca</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+                            <span>Moguća Hitna Isporuka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcija Proces -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kako Funkcioniše</span>
+                <h2>Naš <span class="gradient-text">Proces Rada</span></h2>
+                <p>Od prvog upita do konačne isporuke — jednostavno i transparentno.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Pošaljite Zahtev</h3>
+                        <p>Pošaljite nam crteže, CAD fajlove ili uzorke zajedno sa specifikacijom materijala i potrebnom količinom. Prihvatamo sve uobičajene formate.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Dobijte Ponudu</h3>
+                        <p>Naši inženjeri pregledaju vaše specifikacije i dostavljaju detaljnu, transparentnu ponudu u roku od 24 sata — bez skrivenih troškova.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Precizna Izrada</h3>
+                        <p>Nakon odobrenja, naši mašinci počinju sa radom. Svaki deo se izrađuje prema vašim tačnim specifikacijama uz rigorizne kontrole kvaliteta.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Kontrola Kvaliteta i Isporuka</h3>
+                        <p>Svaki deo prolazi temeljnu inspekciju sa dokumentovanim rezultatima. Pakujemo sigurno uz potpunu sledljivost i sertifikate po potrebi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcija Galerija -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Naši Radovi</span>
+                <h2>Galerija <span class="gradient-text">Projekata</span></h2>
+                <p>Izbor precizno obrađenih komponenti iz naše radionice.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="1.5"/><circle cx="40" cy="40" r="15" stroke="currentColor" stroke-width="1.5"/><circle cx="40" cy="40" r="5" fill="currentColor"/></svg>
+                        <span>CNC Strugana Osovina</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><rect x="15" y="25" width="50" height="30" rx="4" stroke="currentColor" stroke-width="1.5"/><circle cx="30" cy="40" r="8" stroke="currentColor" stroke-width="1.5"/><circle cx="50" cy="40" r="8" stroke="currentColor" stroke-width="1.5"/></svg>
+                        <span>Precizne Čaure</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><path d="M20 55h40v-8l-8-8h-24l-8 8v8z" stroke="currentColor" stroke-width="1.5"/><path d="M28 39V25h24v14" stroke="currentColor" stroke-width="1.5"/><line x1="40" y1="25" x2="40" y2="55" stroke="currentColor" stroke-width="1"/></svg>
+                        <span>Navojne Spojnice</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="20" stroke="currentColor" stroke-width="1.5"/><path d="M40 20v40M20 40h40" stroke="currentColor" stroke-width="1"/><circle cx="40" cy="40" r="10" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/></svg>
+                        <span>Reletirane Ručice</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><ellipse cx="40" cy="30" rx="20" ry="8" stroke="currentColor" stroke-width="1.5"/><path d="M20 30v20c0 4.4 8.95 8 20 8s20-3.6 20-8V30" stroke="currentColor" stroke-width="1.5"/><ellipse cx="40" cy="50" rx="20" ry="8" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/></svg>
+                        <span>Stepenaste Čaure</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none"><polygon points="40,15 55,30 55,55 40,65 25,55 25,30" stroke="currentColor" stroke-width="1.5"/><polygon points="40,25 48,31 48,49 40,55 32,49 32,31" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3"/></svg>
+                        <span>Šestougaoni Odstojnici</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcija Utisci -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Šta Kažu Klijenti</span>
+                <h2>Poverenje <span class="gradient-text">Lidera Industrije</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                    </div>
+                    <p>„MetalTurnPro nam je isporučio 500 osovina po meri za montažnu liniju bez ijednog defekta. Njihova preciznost i doslednost su nenadmašne. Naš su partner za obradu metala već 8 godina."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div>
+                            <strong>Marko Jovanović</strong>
+                            <span>Menadžer Proizvodnje, AutoDelovi d.o.o.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                    </div>
+                    <p>„Trebala nam je hitna popravka kritične komponente. MetalTurnPro je to završio za 6 sati. Takva odzivnost nas je spasila od skupog zastoja. Toplo preporučujem."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JP</div>
+                        <div>
+                            <strong>Jelena Petrović</strong>
+                            <span>Direktorka Operacija, TehnoFab Rešenja</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z"/></svg>
+                    </div>
+                    <p>„Prototipovi koje je MetalTurnPro izradio za naš medicinski uređaj bili su besprekorno urađeni. Njihova pažnja na detalje i poznavanje materijala dali su nam sigurnost da odmah pređemo na proizvodnju."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DN</div>
+                        <div>
+                            <strong>Dr Dragan Nikolić</strong>
+                            <span>Rukovodilac R&D, MediPreciznost d.o.o.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Sekcija -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Spremni da Pokrenete <span class="gradient-text">Projekat?</span></h2>
+                <p>Dobijte besplatnu ponudu bez obaveza u roku od 24 sata. Pošaljite crteže i prepustite ostatak našim stručnjacima.</p>
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Zatražite Besplatnu Ponudu
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcija Kontakt -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Kontaktirajte Nas</span>
+                    <h2>Razgovarajmo o Vašem <span class="gradient-text">Projektu</span></h2>
+                    <p>Pošaljite nam vaše zahteve i odgovorićemo vam sa detaljnom ponudom u roku od 24 sata.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <div>
+                                <strong>Telefon</strong>
+                                <span>+381 11 123 4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <div>
+                                <strong>E-pošta</strong>
+                                <span>info@metalturnpro.rs</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+                            <div>
+                                <strong>Radionica</strong>
+                                <span>Industrijska 123, Industrijska zona, Beograd</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <div>
+                                <strong>Radno Vreme</strong>
+                                <span>Pon-Pet: 07:00 - 17:00<br>Sub: 08:00 - 12:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Ime i Prezime *</label>
+                                <input type="text" id="name" name="name" required placeholder="Petar Petrović">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Firma</label>
+                                <input type="text" id="company" name="company" placeholder="Naziv vaše firme">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-pošta *</label>
+                                <input type="email" id="email" name="email" required placeholder="petar@firma.rs">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Broj Telefona</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+381 60 123 4567">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Potrebna Usluga *</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Izaberite uslugu</option>
+                                <option value="cnc-struganje">CNC Struganje</option>
+                                <option value="rucno-struganje">Ručno Struganje</option>
+                                <option value="delovi-po-meri">Izrada Delova po Meri</option>
+                                <option value="izrada-navoja">Izrada Navoja</option>
+                                <option value="busenje-razvrtanje">Bušenje i Razvrtanje</option>
+                                <option value="ceono-reletiranje">Čeono Struganje i Reletiranje</option>
+                                <option value="ostalo">Ostalo / Više Usluga</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Detalji Projekta *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Opišite vaš projekat: materijal, dimenzije, količina, tolerancije, rok isporuke..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            Pošaljite Zahtev za Ponudu
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podnožje -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                            <line x1="20" y1="2" x2="20" y2="12" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="28" x2="20" y2="38" stroke="currentColor" stroke-width="2"/>
+                            <line x1="2" y1="20" x2="12" y2="20" stroke="currentColor" stroke-width="2"/>
+                            <line x1="28" y1="20" x2="38" y2="20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span>MetalTurn<span class="accent">Pro</span></span>
+                    </a>
+                    <p>Precizne usluge metal struga za industriju. Kvalitetan zanatski rad, moderna tehnologija, pouzdana isporuka.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Usluge</h4>
+                    <ul>
+                        <li><a href="#services">CNC Struganje</a></li>
+                        <li><a href="#services">Ručno Struganje</a></li>
+                        <li><a href="#services">Delovi po Meri</a></li>
+                        <li><a href="#services">Izrada Navoja</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Kompanija</h4>
+                    <ul>
+                        <li><a href="#about">O Nama</a></li>
+                        <li><a href="#gallery">Galerija</a></li>
+                        <li><a href="#process">Naš Proces</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Industrije</h4>
+                    <ul>
+                        <li><a href="#services">Automobilska</a></li>
+                        <li><a href="#services">Vazduhoplovna</a></li>
+                        <li><a href="#services">Medicinska</a></li>
+                        <li><a href="#services">Industrijska</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MetalTurnPro. Sva prava zadržana.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
